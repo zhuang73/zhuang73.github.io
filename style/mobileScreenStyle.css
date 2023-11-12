@@ -1,0 +1,25 @@
+@media screen {
+    #pictures {
+        margin-left: 0;
+        margin-right: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #pictures>div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+    .tooltiptext{
+       
+        margin-left: 0;
+    }
+    
+}

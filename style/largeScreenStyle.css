@@ -1,0 +1,23 @@
+@media screen and (min-width: 992px) {
+    #pictures {
+        margin-left: 5%;
+        margin-right: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #indent {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	
+	h4 {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}

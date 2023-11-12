@@ -1,0 +1,40 @@
+#pictures {
+
+
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+
+.questiontext
+{
+	width: 100%;
+}
+
+.tooltiptext{
+	visibility: hidden;
+	background-color: #7B7CD3;
+	color: white;
+	margin-left: 5%;
+}
+.tooltip:hover  + .tooltiptext
+{
+	visibility: visible;
+	display: inline;
+}
+
+.question {
+	display: flex;
+	width: 100%;
+}
+
+
+.question>div{
+	/* display: table-cell; */
+	/* float: left; */
+	vertical-align: middle;
+	text-align: left;
+}
+
+
+

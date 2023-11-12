@@ -1,0 +1,16 @@
+@media screen and (orientation: landscape) {
+	#indent {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	
+	h4 {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	
+	p {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}

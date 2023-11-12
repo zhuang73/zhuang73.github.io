@@ -1,0 +1,22 @@
+footer ul {
+	list-style: none;
+	background-color: #7B7CD3;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+footer ul li {
+  display: inline-block;
+  padding-right: 2.5%;
+  font-size: 1.25em;
+}
+
+footer a:link, footer a:visited {
+	text-decoration: none;
+	color: white;
+}
+	
+footer #copyright {
+	text-align: center;
+	margin-left: 0px;
+}
