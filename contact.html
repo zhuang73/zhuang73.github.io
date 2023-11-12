@@ -1,64 +1,116 @@
 <!DOCTYPE html>
-<!made by Yuyao Liu for COM1008 assignment 1>
-<!contact>
-<html>
+
+<html lang="en">
 
 <head>
-	<title>Meetings & papers</title>
+
+	<meta charset="utf-8">
 	<meta name="author" content="Yuyao Liu">
+	<meta name="description" content="com1008 assignment1">
+	<meta name="copyright" content="Yuyao Liu">
 	<meta name="viewport" content="width=device-width, initialscale =1.0">
+	<title>Meetings & papers</title>
 	<link rel="stylesheet" href="style/header.css">
 	<link rel="stylesheet" href="style/main.css">
-	<link rel="stylesheet" href="style/meetings.css">
+	<link rel="stylesheet" href="style/mobileScreenStyle.css">
+	<link rel="stylesheet" href="style/mediumScreenStyle.css">
+	<link rel="stylesheet" href="style/largeScreenStyle.css">
 	<link rel="stylesheet" href="style/footer.css">
 </head>
 
 <body id="contact">
 
-<header>
-	
-	<div id="logo">
-		<div class="header">
-			<img src="images/UniLogo.png" alt="an orange logo with a blue diagonal 
+	<header>
+
+		<div id="logo">
+			<div class="header">
+				<img src="images/UniLogo.png" alt="an orange logo with a blue diagonal 
 			stripe, an open book and a purple ribbon wrapping around the logo with the word 
 			'University' on it" width="100" height="100">
+			</div>
+			<div class="header">
+				<h1>University staff-student liaison committee</h1>
+			</div>
 		</div>
-		<div class="header">
-			<h1>University staff-student liaison committee</h1>
+
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="purpose.html">Purpose</a>
+				</li>
+				<li>
+					<a href="membership.html">Membership</a>
+				</li>
+				<li>
+					<a href="meetings.html">Meetings & papers</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact us</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<h1>Contact us!</h1>
+		<h4 class="indent">Department of Computer Science</h4>
+		<p>Email: dcs@sheffield.ac.uk</p>
+		<p>Telephone: +44 114 222 1800</p>
+
+		<h4 class="indent">Tell us what you're thinking about!</h4>
+		<p>We’d love to hear your ideas on how we can better improve the department and school.
+			Please feel free to use the form below to submit your ideas to us by typing your
+			university email address, the person or people you wish for the email to be addressed to
+			(e.g. a specific year group, a specific committee member, or to any committee member),
+			and then your comments in their respective text boxes below, then press the “Send”
+			button to send the email.</p>
+
+		<form name="myform" action="mailto:emilyyuyaoliu@gmail.com?subject=Test Email" enctype="text/plain"
+			method="post">
+
+			<div id="contactform">
+				<div id="emaillabel"><label for="email">Your email:</label></div>
+				<div id="emailinput"> <input type="email" style="width: 200px;" name="email" id="email"
+						placeholder="your email here" required></div>
+				<div id="sendtolabel"><label>Who your comments will be send to:</label></div>
+				<div id="sendtoinput"><input type="text" style="width: 200px;" name="sendto" id="sendto"
+						placeholder="the recipient's name here"></div>
+				<div id="messagelabel"> <label for="comments">Your comments:</label></div>
+				<div id="messageinput"><textarea name="comments" id="comments" placeholder="type your comments..."
+						rows="5" cols="50"></textarea></div>
+				<div id="contactbuttons"><input type="submit" value="Send"><input class="leftgap" type="reset"></div>
+
+			</div>
+		</form>
+
+	</main>
+
+	<footer>
+		<nav>
+			<ul>
+				<li>
+					<a href="accessibility.html">Accessibility</a>
+				</li>
+				<li>
+					<a href="legal.html">Legal & security</a>
+				</li>
+				<li>
+					<a href="design.html">Design</a>
+				</li>
+				<li>
+					<a href="testing.html">Testing</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div id="copyright">
+			<p>© designed by Yuyao Liu, 2023</p>
 		</div>
-	</div>
 
-	<nav>
-		<ul>
-			<li>
-				<a href="index.html">Home</a>
-			</li>
-			<li>
-				<a href="purpose.html">Purpose</a>
-			</li>
-			<li>
-				<a href="membership.html">Membership</a>
-			</li>
-			<li>
-				<a href="meetings.html">Meetings & papers</a>
-			</li>
-			<li>
-				<a href="contact.html">Contact us</a>
-			</li>
-		</ul>
-	</nav>
-</header>
+	</footer>
+</body>
 
-<main>
-	<h1>Contact us!</h1>
-	<h4>Department of Computer Science</h4>
-	<p>Email: dcs@sheffield.ac.uk</p>
-	<p>Telephone: +44 114 222 1800</p>
-	
-	<h4>Tell us what you're thinking about!</h4>
-	<p>We’d love to hear your ideas on how we can better improve the department and school. 
-	Please feel free to use the form below to submit your ideas to us by typing your 
-	university email address, the person or people you wish for the email to be addressed to 
-	(e.g. a specific year group, a specific committee member, or to any committee member), 
-	and then your comments in their respective text boxes below, then press the “Send” 
-	button to send the email.</p>
+</html>

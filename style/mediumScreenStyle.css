@@ -1,4 +1,7 @@
 @media screen and (min-width: 768px) {
+    /*
+    on medium screen, we want to show two images per row
+    */
     #pictures {
         margin-left: 5%;
         margin-right: 5%;
@@ -11,7 +14,7 @@
         margin-right: 5%;
     }
 
-    #indent {
+    .indent {
 		margin-left: 5%;
 		margin-right: 5%;
 	}

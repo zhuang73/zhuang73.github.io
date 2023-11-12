@@ -1,4 +1,7 @@
 @media screen and (min-width: 992px) {
+      /*
+    on large screen, we want to show four images per row
+    */
     #pictures {
         margin-left: 5%;
         margin-right: 5%;
@@ -11,13 +14,10 @@
         margin-right: 5%;
     }
 
-    #indent {
+    .indent {
 		margin-left: 5%;
 		margin-right: 5%;
 	}
 	
-	h4 {
-		margin-left: 5%;
-		margin-right: 5%;
-	}
+	
 }

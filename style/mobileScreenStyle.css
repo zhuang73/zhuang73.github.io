@@ -1,4 +1,7 @@
 @media screen {
+      /*
+    on small screen, we want to show one image per row
+    */
     #pictures {
         margin-left: 0;
         margin-right: 0;
@@ -11,6 +14,9 @@
         margin-right: auto;
     }
 
+    /*
+    on small screen, the margin of each paragraph will be 0
+    */
     p {
         margin-left: 0;
         margin-right: 0;
@@ -21,5 +27,7 @@
        
         margin-left: 0;
     }
+
+
     
 }
