@@ -45,9 +45,13 @@
     }
 
 
+    /*
+    on medium screen, contact form label and input field are on same line
+    260px is measured from the field label with 
+    */
     #contactform {
         display: grid;
-        grid-template-columns: 300px 1fr;
+        grid-template-columns: 260px 1fr;
         grid-gap: 10px;
     }
     

@@ -44,7 +44,10 @@
     }
 
 
-
+    /*
+    on large screen, contact form label and input field are on same line
+    we leave 300px for field label 
+    */
     #contactform {
         display: grid;
         grid-template-columns: 300px 1fr;
