@@ -1,40 +1,15 @@
-#pictures {
-
-
-	display: grid;
-	grid-template-columns: 1fr;
-}
-
-
-.questiontext
-{
-	width: 100%;
-}
-
-.tooltiptext{
+.tooltiptext {
 	visibility: hidden;
 	background-color: #7B7CD3;
 	color: white;
-	margin-left: 5%;
+	padding: 2px 0 2px 0;
 }
-.tooltip:hover  + .tooltiptext
-{
+
+.tooltip:hover+.tooltiptext {
 	visibility: visible;
-	display: inline;
+	display: block;
 }
 
-.question {
-	display: flex;
-	width: 100%;
+.questionimg {
+	max-width: 300px;
 }
-
-
-.question>div{
-	/* display: table-cell; */
-	/* float: left; */
-	vertical-align: middle;
-	text-align: left;
-}
-
-
-

@@ -1,23 +1,54 @@
 @media screen and (min-width: 992px) {
-      /*
+
+    /*
+    on large screen, we want some padding in the body  
+    */
+    body main {
+        padding: 0px 5px 5px 5px;
+    }
+
+    /*
     on large screen, we want to show four images per row
     */
     #pictures {
-        margin-left: 5%;
-        margin-right: 5%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    p {
-        margin-left: 5%;
-        margin-right: 5%;
+    /*
+    on large screen, we want left/right margin to be 5%
+    */
+    section {
+        margin: 0 5% 0 5%;
     }
 
-    .indent {
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-	
-	
+    /* on purpose page, we want picture and question text on same line, 
+    the maximum size of each picture is 300px */
+    .question {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-column-gap: 40px;
+        grid-row-gap:10px;
+    }
+
+    .question>div {
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    /*
+    when question text is on same line with picture, we want to have left padding of 10px 
+    */
+    .questiontextpaddinghaha {
+        padding:0 0 0 40px;
+    }
+
+
+
+    #contactform {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-gap: 10px;
+    }
+    
 }

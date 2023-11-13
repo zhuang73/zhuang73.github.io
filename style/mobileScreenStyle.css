@@ -1,4 +1,12 @@
 @media screen {
+
+       /*
+    on small screen, we do not want any padding in the body  
+    */
+    body main {
+        padding: 0 0 0 0;
+    }
+
       /*
     on small screen, we want to show one image per row
     */
@@ -15,19 +23,44 @@
     }
 
     /*
-    on small screen, the margin of each paragraph will be 0
+    on small screen, the section has no margin
     */
-    p {
-        margin-left: 0;
-        margin-right: 0;
+    section{
+        margin: 0 0 0 0;
     }
 
+   
 
-    .tooltiptext{
-       
-        margin-left: 0;
+    /**
+    on narrow screen, the pic and text will be on separate line
+    **/
+    .question {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-column-gap: 0px;
+        grid-row-gap:0px;
+    }
+    
+    .question>div {
+        vertical-align: middle;
+        text-align: left;
     }
 
+     /*
+    when question text is on separate line,no need to have left padding
+    */
+    .questiontextpaddinghaha {
+        padding:0 0 0 0;
+    }
 
+ /*
+ the contact form lable and input field are on separate line
+ */
+    #contactform {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap:0px;
+        grid-row-gap: 5px;
+    }
     
 }
