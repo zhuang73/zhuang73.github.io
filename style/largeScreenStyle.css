@@ -15,6 +15,10 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+    .testpictures {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     /*
     on large screen, we want left/right margin to be 5%
     */
@@ -54,4 +58,17 @@
         grid-gap: 10px;
     }
     
+    /*
+    designmockup has page design mockup picture hyperlinks
+    on large screen, three links are displayed side by side with gap
+    */
+    .designmockup{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+
+    .bigpicture{
+        width: 600px;
+    }
 }

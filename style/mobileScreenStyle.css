@@ -1,66 +1,84 @@
 @media screen {
 
-       /*
+    /*
     on small screen, we do not want any padding in the body  
     */
     body main {
         padding: 0 0 0 0;
     }
 
-      /*
+    /*
     on small screen, we want to show one image per row
     */
     #pictures {
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0 0 0 0;
+       
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .testpictures {
+        margin: 0 0 0 0;
         display: grid;
         grid-template-columns: 1fr;
     }
 
     #pictures>div {
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
     }
 
     /*
     on small screen, the section has no margin
     */
-    section{
+    section {
         margin: 0 0 0 0;
     }
 
-   
+
 
     /**
     on narrow screen, the pic and text will be on separate line
     **/
     .question {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
         grid-column-gap: 0px;
-        grid-row-gap:0px;
+        grid-row-gap: 0px;
     }
-    
+
     .question>div {
         vertical-align: middle;
         text-align: left;
     }
 
-     /*
+    /*
     when question text is on separate line,no need to have left padding
     */
     .questiontextpaddinghaha {
-        padding:0 0 0 0;
+        padding: 0 0 0 0;
     }
 
- /*
- the contact form lable and input field are on separate line
- */
+    /*
+    the contact form lable and input field are on separate line
+    */
     #contactform {
         display: grid;
         grid-template-columns: 1fr;
-        grid-column-gap:0px;
+        grid-column-gap: 0px;
         grid-row-gap: 5px;
     }
-    
+
+    /*
+    designmockup has page design mockup picture hyperlinks
+    on mobile screen, links are displayed vertically
+    */
+    .designmockup {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    .bigpicture{
+        width: 300px;
+    }
 }

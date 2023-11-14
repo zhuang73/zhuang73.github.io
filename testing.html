@@ -53,23 +53,74 @@
 
 	<main>
 		<h1>Testing</h1>
-		<!-- <p>This is a website for the University’s Computer Science staff-student liason.
-			We aim to provide a welcoming atmosphere that lets students feel comfortable enough
-			to share their thoughts on the University with our friendly student representatives.
-			In doing so, we hope that we can improve our students’ experiences at the University,
-			and to assist us in doing this, we strongly encourage all students at any stage of
-			their degree to consider becoming a representative by contacting any of the staff on
-			the contact page.</p>
+		<section>
+			<h4>Optimisation</h4>
+			<p>The potential cause of performance issue is the number of images on each page.
+				On design page, there are 
+				18 mock-up pictures, if we display all these picures on the design page, the page loading will take longer.
+				Instead of displaying pictures, we display hyperlinks and that will make page loading lot faster.</p>
 
-		<div id="pictures">
-			<div><img src="images/indexUniStudents.jpg" alt="four students smiling at the camera" width=300></div>
-			<div><img src="images/indexTeacher.jpg" alt="a lecturer discussing something with five students" width=300>
+			<p>
+				The pictures displayed on other pages have also been optimised with smaller file size and reasonable quality.
+			</p>
+		</section>
+
+		<section>
+			<h4>HTML Validation</h4>
+
+			<p>
+				Websites have been validated using online <a href="https://validator.w3.org/nu/#file">validation tools</a>. Errors are caused by a missing html start tag and inappropriate use for label for attribute.
+				After correction, the website is validated again and it passes the test.
+				
+				<div><img class="bigpicture" src="images/Invalid.png" alt="webpage validation result before">	
+					<label>webpage validation result before</label>	
+				</div>
+
+				<br><br>
+				<div><img class="bigpicture" src="images/valid.png" alt="webpage validation result before"></div>
+			</p>
+		</section>
+
+		<section>
+			<h4>Browser Testing</h4>
+			<p>To test media rule based style, tests have been made using simulator of Chrome and the following are the screenshots of test results. The website works as expected under different screen sizes
+				<div class="testpictures">
+					<div><img src="images/test/homenormal.png" alt="home page normal screen size"></div>
+					<div><img src="images/test/homenarrow.png" alt="home page narrow screen size"></div>
+					<div><img src="images/test/homemobile.png" alt="home page mobile screen size"></div>
+					<div><img src="images/test/purposenormal.png" alt="purpose page normal screen size"></div>
+					<div><img src="images/test/purposenarrow.png" alt="purpose page narrow screen size"></div>
+					<div><img src="images/test/purposemobile.png" alt="purpose page mobile screen size"></div>
+					<div><img src="images/test/contactnormal.png" alt="contact page normal screen size"></div>
+					<div><img src="images/test/contactnarrow.png" alt="contact page narrow screen size"></div>
+					<div><img src="images/test/contactmobile.png" alt="contact page mobile screen size"></div>
+				</div>
+
+
+			</p>
+		</section>
+
+		<section>
+			<h4>Accessibility</h4>
+			<p>Accessibility check has been carried out using <a href="https://wave.webaim.org/">WAVE</a>.
+			The test results showed 9 low contrast errors in header and footer. The cause of the errors is the menu font is not dark enough. 
+			<div  class="testpictures">
+				<div><img src="images/test/wavetest1.png" alt="wave test results" ></div>
+				<div><img src="images/test/wavetest2.png" alt="menu font not dark enough"></div>
+			
 			</div>
-			<div><img src="images/indexWorkingTogether.jpg" alt="three students working together on the grass"
-					width=300></div>
-			<div><img src="images/indexMeeting.jpg" alt="four students having a meeting around a wooden table"
-					width=300></div>
-		</div> -->
+			</p>
+			<p>To find a suitable font color for accessibility, <a href="https://webaim.org/resources/contrastchecker/">contrast checker</a> is used and black color is a suitable font color.
+				<div  class="testpictures">
+					<div><img src="images/test/contrastchecker.png" alt="contrast checker for font color" ></div>
+					
+				
+				</div>
+			
+			</p>
+			
+			
+		</section>
 
 	</main>
 
@@ -92,7 +143,7 @@
 		</nav>
 
 		<div id="copyright">
-			<p>© designed by Yuyao Liu, 2023</p>
+			<p>© designed by Yuyao Liu, 2023. All rights reserved</p>
 		</div>
 
 	</footer>

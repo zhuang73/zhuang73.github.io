@@ -28,3 +28,12 @@ label {
     border-width: 1px;
     border-style: solid;
 }
+
+div#pictures img{
+    width: 300px;
+}
+
+div.testpictures img{
+    width: 300px;
+}
+
