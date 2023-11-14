@@ -17,6 +17,11 @@
         grid-template-columns: 1fr;
     }
 
+    /*
+    display pictures vertically on mobile device
+    picture size is 300px
+    also remove all the margins
+    */
     .pagepictures {
         margin: 0 0 0 0;
         display: grid;
@@ -70,15 +75,7 @@
         grid-row-gap: 5px;
     }
 
-    /*
-    designmockup has page design mockup picture hyperlinks
-    on mobile screen, links are displayed vertically
-    */
-    .designmockup {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
+    
 
     .bigpicture{
         width: 300px;

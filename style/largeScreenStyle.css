@@ -15,6 +15,10 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+    /*
+    display three pictures side by side on large screen
+    picture size is 300px
+    */
     .pagepictures {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -23,6 +27,8 @@
     .pagepictures h3{
         grid-column: 1 / span 3;
     }
+
+
     /*
     on large screen, we want left/right margin to be 5%
     */
@@ -62,15 +68,6 @@
         grid-gap: 10px;
     }
     
-    /*
-    designmockup has page design mockup picture hyperlinks
-    on large screen, three links are displayed side by side with gap
-    */
-    .designmockup{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 20px;
-    }
 
     .bigpicture{
         width: 600px;

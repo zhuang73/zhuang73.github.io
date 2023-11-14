@@ -16,6 +16,10 @@
         grid-template-columns: 1fr 1fr;
     } 
 
+    /*
+    display two pictures side by side on narrow screen
+    picture size is 300px
+    */
     .pagepictures {
         display: grid;
         grid-template-columns: 1fr 1fr ;
@@ -64,14 +68,7 @@
         grid-gap: 10px;
     }
     
-     /*
-    designmockup has page design mockup picture hyperlinks
-    on large screen, three links are displayed side by side with no gap specified
-    */
-    .designmockup{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+   
 
     .bigpicture{
         width: 600px;
