@@ -74,34 +74,37 @@
 		<section>
 			<h2>Design reasoning</h2>
 			<p>
-				We defined medial rule based styles. The default css style is for
-				small/mobile device. If the screen size is over 768px, then narrow/medium screen css will be applied, if
-				the screen size is over
-				992px, then the normal/large screen style sheet will be applied.
-				The breakpoints are choosen based on the mostly popular device sizes on the market also based on the
-				page content(pictures are 300px wide).
+				I chose three breakpoints: normal, narrow, and mobile. The default style is for the mobile breakpoint. 
+				If the screen width is over 768px, then the narrow style will be applied, and if the screen width is over
+				992px, then the normal style will be applied. The breakpoints were choosen based on popular device 
+				sizes on the market, and were also based on the pages' content (the pictures are 300px wide).
 
 			</p>
 			<p>
-				For pages with pictures, grid layouts is being used to set number of columns per row. On mobile device,
-				only one picture each row, on narrow device, we show 2 pictures per row, on normal device, we show 4
-				pictures per row.
+				For pages with pictures, grid layouts were used to set the number of columns per row. On mobile devices,
+				there is only one picture per row, for the narrow style, there are two pictures per row, and for the normal 
+				style, there are four pictures per row.
 
 			</p>
 
 			<p>
-				On the contact us page, we use grid layout to make field label and input field side by side on normal
-				and narrow screen.
-				For mobile device, we defines different grid layout so label and field are vertically arranged.
+				On the contact page, I used a grid layout to make the field label and the text box side by side on normal
+				and narrow screens.
+				For mobile devices, I defined a different grid layout so the label and text box are vertically arranged.
 			</p>
 			<p>
-				On purpose page, the pictures and questions are displayed horizontally for narrow and normal screen.
-				For mobile device, the picture will be displayed on top of question.
+				On the purpose page, the pictures and questions are displayed horizontally for the narrow and normal widths.
+				For mobile devices, the pictures are displayed on top of the questions.
 			</p>
 
 			<p>
-				On design page, the sitemap picture width is set to 600px on narrow and normal screen and 300px on
-				mobile device.
+				On the design page, the sitemap picture's width is set to 600px for narrow and normal widths and 300px on
+				mobile devices.
+			</p>
+
+			<p>
+				All of these changes were to ensure all the non-text elements could fit on the screen without the need for
+				 a scrollbar, for convenience.
 			</p>
 		</section>
 
@@ -109,16 +112,20 @@
 		<section>
 			<h2>Menu System</h2>
 			<p>
-				To produce a responsive menu for different size of devices, we use inline-block to display them
-				horizontally on screen when the size of the screen is big enough.
-				Inline-block also automatically apply breakpoints as to the screen size, when the browser window
-				resizes, the links will automatically break into multiple rows to fit the screen.
+				To produce a responsive menu for different size of devices, I used inline-block to display them
+				horizontally on screen when the screen is wide enough. Inline-block also automatically applies 
+				breakpoints based on screen size -- when the window resizes, the links automatically break into 
+				multiple rows to fit the screen.
 			</p>
 		</section>
 
 		<section>
 			<h2>Design mock-ups</h2>
-			<p>For each page, we have design mock-up for normal screen, narrow screen and mobile device. For pages with pictures, the number of pictures on each row is based on the picture size as well breakpoint width.</p>
+			<p>I created design mock-ups for normal, narrow and mobile breakpoints. For pages with pictures, the number of 
+				pictures on each row was based on the pictures' sizes as well the breakpoint widths. I created unique designs for all 
+				the pages to be linked on the headers, and intended for the layouts of the footer pages to be the same. Some choices,
+				such as the white text for page links, were scrapped for accessibility. 
+			</p>
 			<div class="pagepictures">
 				
 				<h3>Home page design</h3>
@@ -143,7 +150,7 @@
 				<div><img src="images/design/MeetingBreakpoint.JPG" alt="meeting page narrow screen design"></div>
 				<div><img src="images/design/MeetingMobile.JPG" alt="meeting page mobile screen design"></div>
 
-				<h3>Contact us page design</h3>
+				<h3>Contact page design</h3>
 				<div><img src="images/design/ContactFull.JPG" alt="membership page normal screen design"></div>
 				<div><img src="images/design/ContactMedium.JPG" alt="membership page narrow screen design"></div>
 				<div><img src="images/design/ContactMobile.JPG" alt="membership page mobile screen design"></div>
