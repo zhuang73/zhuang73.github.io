@@ -3,11 +3,13 @@
 	background-color: #7B7CD3;
 	color: white;
 	padding: 2px 0 2px 0;
+	width: max-content;
 }
 
 .tooltip:hover+.tooltiptext {
 	visibility: visible;
 	display: block;
+	width: max-content;
 }
 
 .questionimg {
