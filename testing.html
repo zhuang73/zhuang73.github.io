@@ -55,7 +55,7 @@
 	<main>
 		<h1>Testing</h1>
 		<section>
-			<h4>Optimisation</h4>
+			<h2>Optimisation</h2>
 			<p>The potential cause of performance issue is the number of images on each page.
 				On design page, there are
 				18 mock-up pictures, if we display all these picures on the design page, the page loading will take
@@ -69,34 +69,37 @@
 		</section>
 
 		<section>
-			<h4>HTML Validation</h4>
+			<h2>HTML Validation</h2>
 
 			<p>
 				Websites have been validated using online <a href="https://validator.w3.org/nu/#file">validation
 					tools</a>. Errors are caused by a missing html start tag and inappropriate use for label for
 				attribute.
+
+			<div><img class="bigpicture" src="images/Invalid.png" alt="webpage validation result before"></div>
+			</p>
+			<p>
 				After correction, the website is validated again and it passes the test.
-
-			<div><img class="bigpicture" src="images/Invalid.png" alt="webpage validation result before">
-				<label>webpage validation result before</label>
+			<div>
+				<img class="bigpicture" src="images/valid.png" alt="webpage validation result before">
 			</div>
-
-			<br><br>
-			<div><img class="bigpicture" src="images/valid.png" alt="webpage validation result before"></div>
 			</p>
 		</section>
 
 		<section>
-			<h4>Browser Testing</h4>
+			<h2>Browser Testing</h2>
 			<p>To test media rule based style, tests have been made using simulator of Chrome and the following are the
 				screenshots of test results. The website works as expected under different screen sizes
-			<div class="testpictures">
+			<div class="pagepictures">
+				<h3>Home page tests</h3>
 				<div><img src="images/test/homenormal.png" alt="home page normal screen size"></div>
 				<div><img src="images/test/homenarrow.png" alt="home page narrow screen size"></div>
 				<div><img src="images/test/homemobile.png" alt="home page mobile screen size"></div>
+				<h3>Purpose page tests</h3>
 				<div><img src="images/test/purposenormal.png" alt="purpose page normal screen size"></div>
 				<div><img src="images/test/purposenarrow.png" alt="purpose page narrow screen size"></div>
 				<div><img src="images/test/purposemobile.png" alt="purpose page mobile screen size"></div>
+				<h3>Contact us page tests</h3>
 				<div><img src="images/test/contactnormal.png" alt="contact page normal screen size"></div>
 				<div><img src="images/test/contactnarrow.png" alt="contact page narrow screen size"></div>
 				<div><img src="images/test/contactmobile.png" alt="contact page mobile screen size"></div>
@@ -107,11 +110,11 @@
 		</section>
 
 		<section>
-			<h4>Accessibility</h4>
+			<h2>Accessibility</h2>
 			<p>Accessibility check has been carried out using <a href="https://wave.webaim.org/">WAVE</a>.
 				The test results showed 9 low contrast errors in header and footer. The cause of the errors is the menu
 				font is not dark enough.
-			<div class="testpictures">
+			<div class="pagepictures">
 				<div><img src="images/test/wavetest1.png" alt="wave test results"></div>
 				<div><img src="images/test/wavetest2.png" alt="menu font not dark enough"></div>
 
@@ -120,7 +123,7 @@
 			<p>To find a suitable font color for accessibility, <a
 					href="https://webaim.org/resources/contrastchecker/">contrast checker</a> is used and black color is
 				a suitable font color.
-			<div class="testpictures">
+			<div class="pagepictures">
 				<div><img src="images/test/contrastchecker.png" alt="contrast checker for font color"></div>
 
 
@@ -130,7 +133,7 @@
 
 			<p>After updating the menu font color to black, another accessibility test is done, this time it passes the
 				test.
-			<div class="testpictures">
+			<div class="pagepictures">
 				<div><img src="images/test/wavetestsuccess.png" alt="wave test success"></div>
 
 

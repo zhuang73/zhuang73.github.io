@@ -15,9 +15,13 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    .testpictures {
+    .pagepictures {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .pagepictures h3{
+        grid-column: 1 / span 3;
     }
     /*
     on large screen, we want left/right margin to be 5%

@@ -17,11 +17,13 @@
         grid-template-columns: 1fr;
     }
 
-    .testpictures {
+    .pagepictures {
         margin: 0 0 0 0;
         display: grid;
         grid-template-columns: 1fr;
     }
+
+
 
     #pictures>div {
         margin: auto;
