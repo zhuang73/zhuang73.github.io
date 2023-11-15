@@ -56,20 +56,19 @@
 		<h1>Testing</h1>
 		<section>
 			<h2>Optimisation</h2>
-			<p>The potential cause of performance issue is the number of images on each page.
-				On design page, there are
-				18 mock-up pictures. The below screenshot is the performance measurement of the website after we deploy it first time.
+			<p>A potential cause of performance issues is the number of images on each page.
+				On the design page, there are
+				18 design pictures. The screenshot below is the performance measurement of the website after its first-time deployment.
 				It takes 1.92 seconds to load the design page on a laptop.
 				
 			</p>
 				<div><img class="bigpicture"  src="images/test/designperformancebefore.png" alt="design page performance measurement before"></div>
 
 			<p>
-				To make the page load faster, we modified the images by making them smaller and on average, the image size is reduced by 70%.
-				After making this change, we republish the website, clear all browser cache and make another performance measurement. The loading time has been reduced to 813 milliseconds.
+				To make the page load faster, I made the images smaller -- on average, image size was reduced by 70%.
+				I then republished the website, cleared all browser caches and made another performance measurement. The loading time was reduced to 1.15 seconds.
 
-				The pictures displayed on other pages have also been optimised with smaller file size and reasonable
-				quality.
+				The pictures displayed on other pages have also been optimised with smaller file sizes.
 			</p>
 			<div><img class="bigpicture"  src="images/test/designperformanceafter.png" alt="design page performance measurement after resize images"></div>
 		</section>
@@ -78,14 +77,13 @@
 			<h2>HTML Validation</h2>
 
 			<p>
-				Websites have been validated using online <a href="https://validator.w3.org/nu/#file">validation
-					tools</a>. Errors are caused by a missing html start tag and inappropriate use for label for
-				attribute.
+				The website has been validated using <a href="https://validator.w3.org/nu/#file">online validation
+				tools</a>. Errors were caused by a missing start tag and incorrect usage of the "for" label.
 
 			<div><img class="bigpicture" src="images/Invalid.png" alt="webpage validation result before"></div>
 			</p>
 			<p>
-				After correction, the website is validated again and it passes the test.
+				After making the corrections, the website was validated again and it passed the test.
 			<div>
 				<img class="bigpicture" src="images/valid.png" alt="webpage validation result before">
 			</div>
@@ -94,8 +92,8 @@
 
 		<section>
 			<h2>Browser Testing</h2>
-			<p>To test media rule based style, tests have been made using simulator of Chrome and the following are the
-				screenshots of test results. The website works as expected under different screen sizes
+			<p>To test media rule based styles, tests were made using a Chrome simulator. The following images are screenshots of the results. 
+			The website works as expected under different screen sizes.
 			<div class="pagepictures">
 				<h3>Home page tests</h3>
 				<div><img src="images/test/homenormal.png" alt="home page normal screen size"></div>
@@ -117,18 +115,18 @@
 
 		<section>
 			<h2>Accessibility</h2>
-			<p>Accessibility check has been carried out using <a href="https://wave.webaim.org/">WAVE</a>.
-				The test results showed 9 low contrast errors in header and footer. The cause of the errors is the menu
-				font is not dark enough.
+			<p>The accessibility check was carried out using <a href="https://wave.webaim.org/">WAVE</a>.
+				The test results showed 9 low contrast errors in the header and footer. The cause of the errors was the font colour 
+				being too light.
 			<div class="pagepictures">
 				<div><img src="images/test/wavetest1.png" alt="wave test results"></div>
 				<div><img src="images/test/wavetest2.png" alt="menu font not dark enough"></div>
 
 			</div>
 			</p>
-			<p>To find a suitable font color for accessibility, <a
-					href="https://webaim.org/resources/contrastchecker/">contrast checker</a> is used and black color is
-				a suitable font color.
+			<p>To find a suitable font colour, <a
+					href="https://webaim.org/resources/contrastchecker/">Contrast Checker</a> was used. 
+					The font colour was changed to black.
 			<div class="pagepictures">
 				<div><img src="images/test/contrastchecker.png" alt="contrast checker for font color"></div>
 
@@ -137,8 +135,7 @@
 
 			</p>
 
-			<p>After updating the menu font color to black, another accessibility test is done, this time it passes the
-				test.
+			<p>After updating the font colour to black, another accessibility test was carried out and passed.
 			<div class="pagepictures">
 				<div><img src="images/test/wavetestsuccess.png" alt="wave test success"></div>
 
